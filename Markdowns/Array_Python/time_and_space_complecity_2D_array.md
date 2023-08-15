@@ -10,3 +10,10 @@
 | Searching for a given value in 2D array | O(MN) | O(1) |
 | deleting an Element from Array | O(MN) | O(MN) |
 
+
+- while inserting an row/column the time complexity and space complexity for them will be O(MN) because numpy will inserting the element to the `2D Array`  a new array with `updated dimention` will going to be get created anf the `preveious value will be copied wto the new value with new row/column value in here `
+
+- same goes for the `remove` operation as well and time complexity and space complexity for them will be O(MN) because numpy will inserting the element to the `2D Array`  a new array with `updated dimention` will going to be get created anf the `preveious value will be copied wto the new value without  row/column value we deleted `
+
+
+
