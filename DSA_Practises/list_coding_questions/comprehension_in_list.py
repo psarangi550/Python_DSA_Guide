@@ -23,6 +23,11 @@ print(list2)
 # the structure of the List comprehension with conition will be of `[<new item> for <item> in <list> if <condition>]` or `[<new item> if <condition> else <value> for <item> in <list>]`
 # this will help in creating the new element if the condition is matched or met
 
+
+# when we do the slicing and assignning then shallow copy will not going to happen rather a new element will going to be get created 
+# But when we are assigning only then the shallow copy will going to happen 
+
+
 prev_list1:List[int]=[-1,10,-20,2,-90,60,45,20]
 
 # if we want to create a List with positive number then we can do that as 
@@ -63,3 +68,25 @@ def getNumber(number:int)->int:
 list_mod1:List[int]=[getNumber(item) for item in prev_list1]
 
 print(list_mod1) 
+
+
+fruit_list1 = ['Apple', 'Berry', 'Cherry', 'Papaya']
+fruit_list2 = fruit_list1
+fruit_list3 = fruit_list1[:]
+ 
+fruit_list2[0] = 'Guava'
+fruit_list3[1] = 'Kiwi'
+ 
+sum = 0
+for ls in (fruit_list1, fruit_list2, fruit_list3):
+    print(ls)
+    # if ls[0] == 'Guava':
+    #     sum += 1
+    # if ls[1] == 'Kiwi':
+    #     sum += 20
+ 
+print(sum)
+
+
+a=[1,2,3,4,5]
+print(a[3:0:-1])
