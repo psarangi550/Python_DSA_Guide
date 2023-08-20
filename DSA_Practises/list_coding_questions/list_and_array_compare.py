@@ -10,7 +10,8 @@
     # the operation that can be performed on both the List and Array Data Structure
     # Arrays are used for strong arthimatic calculation or computation
     # In Array we have to store the homogenious item where as on the list we can store the hetrogenious item
-    # when we putt the array with `multiple type` such as `int and str` then that will be converted into `one type` , ex when we put the `str and int` it will convert to `str` type 
+    # when we putt the array with `multiple type` such as `int and str` then that will be converted into `one type` , ex when we put the `str and int` it will convert to `str` type \
+    # 
     
     
 import numpy as np 
