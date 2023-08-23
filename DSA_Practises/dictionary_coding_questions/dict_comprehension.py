@@ -26,4 +26,8 @@ new_Dict:Dict[str,int]={ key:random.randint(20,30) for key in city_names }
 
 print(new_Dict)
 
+# here we can crreate the new dict from old dict with the condition as below
 
+new_Dict1:Dict[str,int]={ key:random.randint(20,30) for key,value in new_Dict.items() if value>25 }
+
+print(new_Dict1)
